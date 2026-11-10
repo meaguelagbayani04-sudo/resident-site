@@ -1,0 +1,10 @@
+{
+  "description": "Engage with local governance through announcements, constituency checks, issue reporting, voting on initiatives, and access to barangay officials' contact info.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "VOXA",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:22",
+  "postCreateCommand": "npm install -g pnpm@10 && pnpm install",
+  "postAttachCommand": "pnpm dev",
+  "forwardPorts": [8443],
+  "portsAttributes": { "8443": { "label": "VOXA", "onAutoForward": "openBrowser" } }
+}
